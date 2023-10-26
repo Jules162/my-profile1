@@ -1,0 +1,112 @@
+body {
+color: #015F4C;
+font-size: 16px;
+font-family: 'Roboto';
+font-weight: 400;
+text-align: justify;
+}
+
+
+#back {
+    background: linear-gradient(#129A3F,#0B4231);
+}
+
+
+.container {
+    background: white;
+    width: 700px;
+    padding: 50px;
+    margin: 30px auto;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    text-align: center;
+    height: 400px;
+}
+.profil-circle {
+    border-radius: 50%;
+}
+  
+.carddesign {
+    background: white;
+    width: 700px;
+    padding: 50px;
+    margin: 30px auto;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px; 
+    text-align: center; 
+   
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+.list-inline i {
+    font-size: 40px;
+}
+#insta {
+    color: #F6195F;
+}
+#linkedin {
+    color: #036799;
+}
+#introduction p {
+    margin-bottom: 40px;
+}
+
+
+
+h1  {
+    color: #005B41;
+    font-family: Helvetica
+    font-weight: 20000;
+    letter-spacing: 3px;
+    font-size: 25px;
+    vertical-align: middle;
+    height: 15px;
+    padding: 1px;
+    margin-bottom: 40px;
+
+}
+h2  {
+    color: #45474B;
+    font-family: Roboto;
+    font-weight: 10000;
+    letter-spacing: 5px;
+    font-size: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #005B41;
+    font-weight: 600;
+    
+}
+
+.btn:not(.no-hover) {
+    background-color : black;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+@media (max-width: 700px) {
+    .container {
+        width: 550px;
+    }
+}
+
+@media (max-width: 550px) {
+    .container {
+        width: 400px;
+    }
+}
+
+
+
+
